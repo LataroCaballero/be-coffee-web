@@ -24,7 +24,9 @@ export default function Home() {
       <section id="experiencia">
         <Experience data={data.menu} colors={data} />
       </section>
-      <Footer id="contact" name={data.name} colors={data} data={data} />
+      <section id="contact">
+        <Footer name={data.name} colors={data} data={data} />
+      </section>
     </main>
   );
 }
